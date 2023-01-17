@@ -1,0 +1,33 @@
+/* Operators */
+@use "sass:math";
+/* Partials */
+@use 'card-front';
+@use 'card-back';
+
+$red: hsl(0, 100%, 66%);  /* Input errors */
+$linear-gradiant: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);   /* active input border */ 
+/* Neutral Colors */
+$very-dark-violet: hsl(278, 68%, 11%);
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}  
+
+body{
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.bg-desktop{
+  position: absolute;
+  width: 34%;
+  height: 699px;
+}
+
+.container{
+  position: relative;
+  display: grid;
+}
+
