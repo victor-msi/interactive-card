@@ -1,0 +1,38 @@
+$light-grayish-violet: hsl(270, 3%, 87%);
+$Dark-grayish-violet: hsl(279, 6%, 55%);
+$while: hsl(0, 0%, 100%); 
+
+$font-size: 18px;
+
+.container__card-back{
+  position: relative;
+  margin-top: 70px;
+  margin-left: 18%;
+  width: 300px;
+  height: 40%;
+  
+  .box-shadow{
+    position: absolute;
+    left: 208px;
+    width: 216px;
+    height: 221px;
+    box-shadow: 10px 2px 35px -3px rgba(137,132,140,0.38);
+  }
+
+  .card-back{
+    position: relative;
+    width: 424.03px;
+    height: 222px;
+  }
+
+  .card-back__CVC{
+    position: absolute;
+    top: 100px;
+    left: 335px;
+    color: $while;
+    letter-spacing: 2px;
+    font-size: $font-size - 4px;
+    opacity: .8;
+  }
+}
+
