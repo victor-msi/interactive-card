@@ -1,8 +1,4 @@
-$light-grayish-violet: hsl(270, 3%, 87%);
-$Dark-grayish-violet: hsl(279, 6%, 55%);
-$while: hsl(0, 0%, 100%); 
-
-$font-size: 18px;
+@use 'variables';
 
 .container__card-back{
   position: relative;
@@ -29,9 +25,9 @@ $font-size: 18px;
     position: absolute;
     top: 100px;
     left: 335px;
-    color: $while;
+    color: variables.$while;
     letter-spacing: 2px;
-    font-size: $font-size - 4px;
+    font-size: variables.$font-size - 4px;
     opacity: .8;
   }
 }
