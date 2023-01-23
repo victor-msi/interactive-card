@@ -48,6 +48,10 @@ input[type=number]::-webkit-inner-spin-button {
     margin: 0;
 }
 
+input:focus{
+  border-image: linear-gradient(to right, variables.$linear-gradiant-1, variables.$linear-gradiant-2) 1;
+}
+
 .input-name,
 .input-number{
   width: 340px;
